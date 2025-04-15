@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="bg-zinc-900 text-zinc-200">
+    <footer className="bg-purple-900 text-purple-50">
       <div className="container-custom py-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
@@ -33,13 +33,13 @@ export function Footer() {
               <div className="flex space-x-4 mt-4">
                 <Link
                   href="#apply"
-                  className="text-white bg-primary hover:bg-primary/90 px-4 py-2 rounded text-sm"
+                  className="poster-button-primary"
                 >
                   교육 신청하기
                 </Link>
                 <Link
                   href="#download"
-                  className="text-white bg-zinc-700 hover:bg-zinc-600 px-4 py-2 rounded text-sm"
+                  className="poster-button-secondary"
                 >
                   자료 다운로드
                 </Link>
@@ -48,20 +48,27 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-zinc-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t border-purple-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="flex gap-6 mb-4 md:mb-0">
-            <Link href="#" className="text-sm hover:text-primary transition-colors">
+            <Link href="#" className="text-sm hover:text-purple-200 transition-colors">
               개인정보처리방침
             </Link>
-            <Link href="#" className="text-sm hover:text-primary transition-colors">
+            <Link href="#" className="text-sm hover:text-purple-200 transition-colors">
               이용약관
             </Link>
-            <Link href="#" className="text-sm hover:text-primary transition-colors">
+            <Link href="#" className="text-sm hover:text-purple-200 transition-colors">
               사이트맵
             </Link>
           </div>
-          <div className="text-sm text-zinc-400">
-            Copyright(c) Korean Artist Welfare Foundation. All rights Reserved.
+          <div className="flex items-center gap-3">
+            <img
+              src="/images/footer-logo.png"
+              alt="문화체육관광부 로고"
+              className="h-8 rounded-md bg-white p-1"
+            />
+            <div className="text-sm text-purple-200">
+              Copyright(c) Korean Artist Welfare Foundation. All rights Reserved.
+            </div>
           </div>
         </div>
       </div>

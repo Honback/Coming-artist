@@ -5,7 +5,7 @@ export function HeroSection() {
   return (
     <section className="relative bg-zinc-900 text-white min-h-[80vh] flex items-center">
       {/* Overlay gradient */}
-      <div className="absolute inset-0 bg-gradient-to-r from-zinc-900/80 to-zinc-900/60 z-10" />
+      <div className="absolute inset-0 bg-gradient-to-r from-purple-900/80 to-purple-900/60 z-10" />
 
       {/* Background image */}
       <div className="absolute inset-0 bg-[url('/images/hero-bg.jpg')] bg-cover bg-center opacity-40" />
@@ -23,7 +23,7 @@ export function HeroSection() {
             <h2 className="text-xl font-bold mb-4">교육내용:</h2>
             <ul className="space-y-3">
               <li className="flex items-start">
-                <div className="bg-primary text-white p-1 rounded-full mr-3 mt-1">
+                <div className="bg-purple-500 text-white p-1 rounded-full mr-3 mt-1">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
@@ -33,7 +33,7 @@ export function HeroSection() {
                 </div>
               </li>
               <li className="flex items-start">
-                <div className="bg-primary text-white p-1 rounded-full mr-3 mt-1">
+                <div className="bg-purple-500 text-white p-1 rounded-full mr-3 mt-1">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
@@ -66,7 +66,7 @@ export function HeroSection() {
 
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="#apply">
-              <Button size="lg" className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-white">
+              <Button size="lg" className="w-full sm:w-auto poster-button-primary">
                 교육 신청하기
               </Button>
             </Link>

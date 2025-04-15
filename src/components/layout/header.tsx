@@ -5,25 +5,25 @@ import Image from "next/image";
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full poster-gradient-bg border-b border-white/20 backdrop-blur supports-[backdrop-filter]:bg-purple-500/60">
       <div className="container-custom flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
-          <Link href="/" className="font-bold text-xl flex items-center">
-            <span className="text-primary">한국예술인복지재단</span>
+          <Link href="/" className="font-bold text-xl flex items-center text-white">
+            <span>한국예술인복지재단</span>
           </Link>
         </div>
 
         <NavigationMenu className="hidden md:flex">
-          <NavigationMenuList>
+          <NavigationMenuList className="bg-purple-600/30 rounded-lg">
             <NavigationMenuItem>
-              <NavigationMenuTrigger>교육 소개</NavigationMenuTrigger>
+              <NavigationMenuTrigger className="text-white hover:text-white/80 hover:bg-purple-600/40">교육 소개</NavigationMenuTrigger>
               <NavigationMenuContent>
-                <ul className="grid gap-3 p-4 w-[400px]">
+                <ul className="grid gap-3 p-4 w-[400px] bg-white rounded-xl">
                   <li>
                     <NavigationMenuLink asChild>
                       <Link
                         href="#why"
-                        className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-purple-50 hover:text-purple-600 focus:bg-purple-50 focus:text-purple-600"
                       >
                         <div className="text-sm font-medium leading-none">왜 찾아가는 교육인가요?</div>
                         <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
@@ -36,7 +36,7 @@ export function Header() {
                     <NavigationMenuLink asChild>
                       <Link
                         href="#curriculum"
-                        className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-purple-50 hover:text-purple-600 focus:bg-purple-50 focus:text-purple-600"
                       >
                         <div className="text-sm font-medium leading-none">교육 과정 안내</div>
                         <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
@@ -50,35 +50,35 @@ export function Header() {
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="#target" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                <NavigationMenuLink className={`${navigationMenuTriggerStyle()} text-white hover:text-white/80 hover:bg-purple-600/40 bg-transparent`}>
                   교육 대상
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="#method" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                <NavigationMenuLink className={`${navigationMenuTriggerStyle()} text-white hover:text-white/80 hover:bg-purple-600/40 bg-transparent`}>
                   교육 방식
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="#instructors" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                <NavigationMenuLink className={`${navigationMenuTriggerStyle()} text-white hover:text-white/80 hover:bg-purple-600/40 bg-transparent`}>
                   강사진
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="#reviews" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                <NavigationMenuLink className={`${navigationMenuTriggerStyle()} text-white hover:text-white/80 hover:bg-purple-600/40 bg-transparent`}>
                   수강생 후기
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="#faq" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                <NavigationMenuLink className={`${navigationMenuTriggerStyle()} text-white hover:text-white/80 hover:bg-purple-600/40 bg-transparent`}>
                   FAQ
                 </NavigationMenuLink>
               </Link>
@@ -88,14 +88,14 @@ export function Header() {
 
         <div className="flex items-center gap-4">
           <Link href="#apply" className="hidden md:block">
-            <Button variant="default">교육 신청하기</Button>
+            <Button className="poster-button-primary">교육 신청하기</Button>
           </Link>
           <Link href="#contact" className="hidden md:block">
-            <Button variant="outline">상담 문의하기</Button>
+            <Button variant="outline" className="text-white bg-transparent border-white hover:bg-white/20">상담 문의하기</Button>
           </Link>
           <Button
             variant="ghost"
-            className="md:hidden"
+            className="md:hidden text-white hover:bg-purple-600/30"
             size="icon"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6">
