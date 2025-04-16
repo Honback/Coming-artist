@@ -9,7 +9,7 @@ interface PlaceholderImageProps extends React.HTMLAttributes<HTMLDivElement> {
 }
 
 export function PlaceholderImage({
-  text = 'Placeholder Image',
+  text,
   width = '100%',
   height = 300,
   className,

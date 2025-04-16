@@ -7,8 +7,8 @@ export function InstructorsSection() {
 
         {/* Image placeholder - in production, use an actual image */}
         <div className="rounded-xl overflow-hidden shadow-lg mb-10 aspect-video max-w-3xl mx-auto">
-          <div className="w-full h-full bg-zinc-200 flex items-center justify-center">
-            <p className="text-zinc-500">강사진 이미지: 다양한 분야의 강사들</p>
+          <div className="w-full h-full bg-zinc-200 flex items-center justify-center bg-[url('/images/instructors-img.jpg')]">
+            <p className="text-zinc-500"></p>
           </div>
         </div>
 

@@ -9,11 +9,11 @@ export function ApplicationProcessSection() {
         <p className="section-subheading">간편한 3단계로 교육이 진행됩니다</p>
 
         {/* Image placeholder - in production, use an actual image */}
-        <div className="rounded-xl overflow-hidden shadow-lg mb-10 aspect-video max-w-3xl mx-auto">
+        {/* <div className="rounded-xl overflow-hidden shadow-lg mb-10 aspect-video max-w-3xl mx-auto">
           <div className="w-full h-full bg-zinc-200 flex items-center justify-center">
             <p className="text-zinc-500">신청 절차 이미지: 단계별 안내</p>
           </div>
-        </div>
+        </div> */}
 
         <div className="max-w-4xl mx-auto">
           <div className="space-y-12 mb-16">

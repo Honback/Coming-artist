@@ -9,8 +9,8 @@ export function EducationMethodSection() {
 
         {/* Image placeholder - in production, use an actual image */}
         <div className="rounded-xl overflow-hidden shadow-lg mb-10 aspect-video max-w-3xl mx-auto">
-          <div className="w-full h-full bg-zinc-200 flex items-center justify-center">
-            <p className="text-zinc-500">교육 방식 이미지: 대면/비대면 교육 장면</p>
+          <div className="w-full h-full bg-zinc-200 flex items-center justify-center bg-[url('/images/education-method-img.jpg')]">
+            <p className="text-zinc-500"></p>
           </div>
         </div>
 

@@ -71,7 +71,7 @@ export function HeroSection() {
               </Button>
             </Link>
             <Link href="#contact">
-              <Button size="lg" variant="outline" className="w-full sm:w-auto border-white text-white hover:bg-white/10">
+              <Button size="lg" variant="outline" className="bg-purple-600/40 w-full sm:w-auto border-white text-white hover:bg-white/10">
                 상담 문의하기
               </Button>
             </Link>

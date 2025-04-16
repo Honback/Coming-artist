@@ -6,11 +6,11 @@ export function ReviewsSection() {
         <p className="section-subheading">이미 많은 예술인들이 변화를 경험했습니다</p>
 
         {/* Image placeholder - in production, use an actual image */}
-        <div className="rounded-xl overflow-hidden shadow-lg mb-10 aspect-video max-w-3xl mx-auto">
+        {/* <div className="rounded-xl overflow-hidden shadow-lg mb-10 aspect-video max-w-3xl mx-auto">
           <div className="w-full h-full bg-zinc-200 flex items-center justify-center">
             <p className="text-zinc-500">후기 이미지: 교육 참여자들</p>
           </div>
-        </div>
+        </div> */}
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
           <div className="bg-white p-6 rounded-xl shadow-md">

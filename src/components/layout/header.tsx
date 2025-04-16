@@ -16,7 +16,7 @@ export function Header() {
         <NavigationMenu className="hidden md:flex">
           <NavigationMenuList className="bg-purple-600/30 rounded-lg">
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="text-white hover:text-white/80 hover:bg-purple-600/40">교육 소개</NavigationMenuTrigger>
+              <NavigationMenuTrigger className="bg-purple-600/40 text-white hover:text-white/80 hover:bg-purple-600/40">교육 소개</NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid gap-3 p-4 w-[400px] bg-white rounded-xl">
                   <li>

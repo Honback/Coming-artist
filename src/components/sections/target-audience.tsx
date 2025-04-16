@@ -9,8 +9,8 @@ export function TargetAudienceSection() {
 
         {/* Image placeholder - in production, use an actual image */}
         <div className="rounded-xl overflow-hidden shadow-lg mb-10 aspect-video max-w-3xl mx-auto">
-          <div className="w-full h-full bg-zinc-200 flex items-center justify-center">
-            <p className="text-zinc-500">교육 대상 이미지: 다양한 예술인 그룹</p>
+          <div className="w-full h-full bg-zinc-200 flex items-center justify-center bg-[url('/images/target-audience-img.jpg')]">
+            <p className="text-zinc-500"></p>
           </div>
         </div>
 
