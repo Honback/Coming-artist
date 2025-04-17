@@ -20,7 +20,7 @@ export function SponsorsSection() {
               <div className="hidden md:block text-3xl text-zinc-300">|</div>
 
               <div className="flex flex-col items-center gap-2">
-                <div className="h-[5rem] w-[10rem] bg-zinc-200 rounded-lg flex items-center justify-center bg-[url('/images/logo.png')] bg-contain bg-center">
+                <div className="h-[3.5rem] w-[10rem] flex items-center justify-center invert overflow-hidden bg-[url('/images/logo.png')] bg-top bg-cover bg-center">
                   {/* <p className="text-zinc-500">한국예술인복지재단 로고</p> */}
                 </div>
                 <p className="font-medium">주관: 한국예술인복지재단</p>

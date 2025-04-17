@@ -39,7 +39,7 @@ export function CurriculumSection() {
         <TabsContent value="prevention" className="mt-4">
           <PosterCard title="1. 성희롱·성폭력 예방 교육" color="white">
             <div className="mb-8">
-              <h4 className="text-xl font-semibold mb-4 text-zinc-800">교육 내용:</h4>
+              <h4 className="text-xl font-semibold mb-4 text-zinc-800">교육 내용</h4>
               <ul className="space-y-3 ml-6">
                 <li className="flex items-center gap-2">
                   <div className="size-2 rounded-full bg-primary shrink-0 mt-1.5" />

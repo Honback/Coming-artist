@@ -93,7 +93,7 @@ export function ApplicationProcessSection() {
           </blockquote>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://sinmungo.kawf.kr/" target="_blank" rel="noopener noreferrer" className="hidden md:block">
+            <a href="https://sinmungo.kawf.kr/user/intro/artRightViloate/list.do" target="_blank" rel="noopener noreferrer" className="hidden md:block">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
                 교육 신청하기
               </Button>

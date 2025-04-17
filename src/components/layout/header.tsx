@@ -9,7 +9,7 @@ export function Header() {
       <div className="container-custom flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
           <Link href="/" className="font-bold text-xl flex items-center text-white">
-            <div className="h-[3rem] w-[6.5rem] bg-zinc-200 rounded-lg flex items-center justify-center bg-[url('/images/logo.png')] bg-contain bg-center">
+            <div className="h-[3.5rem] w-[6rem] flex items-center justify-center bg-[url('/images/logo.png')] bg-cover bg-center">
                 </div>
             {/* <span>한국예술인복지재단</span> */}
           </Link>

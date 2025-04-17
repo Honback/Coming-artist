@@ -102,7 +102,7 @@ export function TargetAudienceSection() {
           </blockquote>
 
           <div className="bg-zinc-100 p-6 rounded-lg">
-            <h3 className="text-xl font-bold mb-4">최소 신청 인원:</h3>
+            <h3 className="text-xl font-bold mb-4">최소 신청 인원</h3>
             <ul className="space-y-2">
               <li className="flex items-center gap-2">
                 <div className="size-2 rounded-full bg-primary shrink-0 mt-1" />

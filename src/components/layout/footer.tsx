@@ -71,7 +71,7 @@ export function Footer() {
             <img
               src="/images/logo.png"
               alt="한국예술인복지재단 로고"
-              className="h-8 rounded-md bg-white p-1"
+              className="h-16 rounded-md p-1"
             />
             <div className="text-sm text-purple-200">
               Copyright(c) Korean Artist Welfare Foundation. All rights Reserved.
