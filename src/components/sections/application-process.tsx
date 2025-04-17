@@ -29,7 +29,7 @@ export function ApplicationProcessSection() {
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="size-2 rounded-full bg-primary shrink-0 mt-1" />
-                    <span>신청페이지: <Link href="#" className="text-primary hover:underline">바로가기</Link></span>
+                    <span>신청페이지 : <a href="https://sinmungo.kawf.kr/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline"> 예술인권리보장시스템 바로가기</a></span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="size-2 rounded-full bg-primary shrink-0 mt-1" />
@@ -88,9 +88,11 @@ export function ApplicationProcessSection() {
           </blockquote>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
-              교육 신청하기
-            </Button>
+            <a href="https://sinmungo.kawf.kr/" target="_blank" rel="noopener noreferrer" className="hidden md:block">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
+                교육 신청하기
+              </Button>
+            </a>
             <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
               자료 다운로드
             </Button>

@@ -2,15 +2,17 @@ export function SponsorsSection() {
   return (
     <section className="py-10 bg-zinc-50">
       <div className="container-custom">
-        <h2 className="text-2xl font-bold text-center mb-8">주최 및 협력기관</h2>
+        <h2 className="text-2xl font-bold text-center mb-8">
+          주최 및 협력기관
+        </h2>
 
         <div className="flex flex-col items-center justify-center gap-6">
           {/* Image placeholder - in production, use actual logos */}
-          <div className="bg-white shadow-sm rounded-lg p-8 max-w-xl w-full">
+          <div className="bg-white shadow-sm rounded-lg p-8">
             <div className="flex flex-col md:flex-row items-center justify-center gap-10">
               <div className="flex flex-col items-center gap-2">
-                <div className="size-32 bg-zinc-200 rounded-lg flex items-center justify-center">
-                  <p className="text-zinc-500">문화체육관광부 로고</p>
+                <div className="h-[4rem] w-[16rem] bg-zinc-200 rounded-lg flex items-center justify-center bg-[url('/images/footer-logo.png')] bg-contain bg-center">
+                  {/* <p className="text-zinc-500"></p> */}
                 </div>
                 <p className="font-medium">주최: 문화체육관광부</p>
               </div>
@@ -18,8 +20,8 @@ export function SponsorsSection() {
               <div className="hidden md:block text-3xl text-zinc-300">|</div>
 
               <div className="flex flex-col items-center gap-2">
-                <div className="size-32 bg-zinc-200 rounded-lg flex items-center justify-center">
-                  <p className="text-zinc-500">한국예술인복지재단 로고</p>
+                <div className="h-[5rem] w-[10rem] bg-zinc-200 rounded-lg flex items-center justify-center bg-[url('/images/logo.png')] bg-contain bg-center">
+                  {/* <p className="text-zinc-500">한국예술인복지재단 로고</p> */}
                 </div>
                 <p className="font-medium">주관: 한국예술인복지재단</p>
               </div>

@@ -15,7 +15,7 @@ export function WhySection() {
         <PlaceholderImage
           // text="교육 필요성 이미지: 다양한 예술 환경"
           height={400}
-          className="bg-zinc-100 bg-[url('/images/why-img.jpg')]"
+          className="bg-zinc-100 bg-[url('/images/why-img.jpg')] bg-cover bg-center"
         />
       </div>
 
