@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function InstructorsSection() {
   return (
     <section id="instructors" className="section-padding bg-white">
@@ -66,7 +68,7 @@ export function InstructorsSection() {
                 <p className="text-zinc-700 text-sm">
                   성희롱·성폭력 예방교육은 수요자가 특정 강사를 선택할 수 있습니다.
                 </p>
-                <p className="text-zinc-700 text-sm">※ 전문강사 Pool : <a href="https://sinmungo.kawf.kr/user/edu/tchr/list.do" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">전문강사 정보 확인하기</a></p>
+                <p className="text-zinc-700 text-sm">※ 전문강사 Pool : <Link href="https://sinmungo.kawf.kr/user/edu/tchr/list.do" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">전문강사 정보 확인하기</Link></p>
               </div>
             </div>
           </div>

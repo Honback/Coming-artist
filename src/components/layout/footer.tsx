@@ -57,15 +57,15 @@ export function Footer() {
 
         <div className="border-t border-purple-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="flex gap-6 mb-4 md:mb-0">
-            <a href="https://www.kawf.kr/utility/sub02.do" className="text-sm hover:text-purple-200 transition-colors">
+            <Link href="https://www.kawf.kr/utility/sub02.do" className="text-sm hover:text-purple-200 transition-colors">
               개인정보처리방침
-            </a>
+            </Link>
             {/* <Link href="#" className="text-sm hover:text-purple-200 transition-colors">
               이용약관
             </Link> */}
-            <a href="https://www.kawf.kr/utility/sub01.do" className="text-sm hover:text-purple-200 transition-colors">
+            <Link href="https://www.kawf.kr/utility/sub01.do" className="text-sm hover:text-purple-200 transition-colors">
               사이트맵
-            </a>
+            </Link>
           </div>
           <div className="flex items-center gap-3">
             <img

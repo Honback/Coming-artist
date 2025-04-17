@@ -1,3 +1,6 @@
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
+
 export function SponsorsSection() {
   return (
     <section className="py-10 bg-zinc-50">
@@ -31,18 +34,24 @@ export function SponsorsSection() {
 
         <div className="flex justify-center mt-8 mb-4">
           <div className="flex space-x-4">
-            <a
+            {/* <a
               href="#apply"
               className="bg-primary hover:bg-primary/90 text-white py-2 px-6 rounded-md transition-colors"
             >
-              교육 신청하기
-            </a>
-            <a
+              신청 절차 바로가기
+            </a> */}
+            <Button>
+              <Link href="#apply"
+              className="bg-primary hover:bg-primary/90 text-white py-2 px-6 rounded-md transition-colors">
+                신청 절차 바로가기
+              </Link>
+            </Button>
+            {/* <a
               href="#download"
               className="bg-zinc-100 hover:bg-zinc-200 text-zinc-700 py-2 px-6 rounded-md transition-colors"
             >
               자료 다운로드
-            </a>
+            </a> */}
             {/* <a
               href="#related-laws"
               className="bg-zinc-100 hover:bg-zinc-200 text-zinc-700 py-2 px-6 rounded-md transition-colors"

@@ -29,7 +29,7 @@ export function ApplicationProcessSection() {
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="size-2 rounded-full bg-primary shrink-0 mt-1" />
-                    <span>신청페이지 : <a href="https://sinmungo.kawf.kr/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline"> 예술인권리보장시스템 바로가기</a></span>
+                    <span>신청페이지 : <Link href="https://sinmungo.kawf.kr/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline"> 예술인권리보장시스템 바로가기</Link></span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="size-2 rounded-full bg-primary shrink-0 mt-1" />
@@ -37,7 +37,7 @@ export function ApplicationProcessSection() {
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="size-2 rounded-full bg-primary shrink-0 mt-1" />
-                    <span>전문강사 Pool : <a href="https://sinmungo.kawf.kr/user/edu/tchr/list.do" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">전문강사 정보 확인하기</a></span>
+                    <span>전문강사 Pool : <Link href="https://sinmungo.kawf.kr/user/edu/tchr/list.do" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">전문강사 정보 확인하기</Link></span>
                   </li>
                 </ul>
               </div>
@@ -93,26 +93,26 @@ export function ApplicationProcessSection() {
           </blockquote>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://sinmungo.kawf.kr/user/intro/artRightViloate/list.do" target="_blank" rel="noopener noreferrer" className="hidden md:block">
+            <Link href="https://sinmungo.kawf.kr/user/intro/artRightViloate/list.do" target="_blank" rel="noopener noreferrer" className="hidden md:block">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
                 교육 신청하기
               </Button>
-            </a>
-            <a href="https://coal-trampoline-cb5.notion.site/1d66db55f81c8069a7ecc453e3f61aec" target="_blank" rel="noopener noreferrer" className="hidden md:block">
+            </Link>
+            <Link href="https://coal-trampoline-cb5.notion.site/1d66db55f81c8069a7ecc453e3f61aec" target="_blank" rel="noopener noreferrer" className="hidden md:block">
               <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
               이용 안내 [단체담당자용]
               </Button>
-            </a>
-            <a href="https://coal-trampoline-cb5.notion.site/1d66db55f81c8057af53f574f148dcd7" target="_blank" rel="noopener noreferrer" className="hidden md:block">
+            </Link>
+            <Link href="https://coal-trampoline-cb5.notion.site/1d66db55f81c8057af53f574f148dcd7" target="_blank" rel="noopener noreferrer" className="hidden md:block">
               <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
               이용 안내 [수강자용]
               </Button>
-            </a>
-            <a href="https://coal-trampoline-cb5.notion.site/1d66db55f81c807ba39ed214630e5466" target="_blank" rel="noopener noreferrer" className="hidden md:block">
+            </Link>
+            <Link href="https://coal-trampoline-cb5.notion.site/1d66db55f81c807ba39ed214630e5466" target="_blank" rel="noopener noreferrer" className="hidden md:block">
               <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
               이용 안내 [강사용]
               </Button>
-            </a>
+            </Link>
 
             {/* <Button size="lg" variant="outline" className="border-zinc-400 text-zinc-700 hover:bg-zinc-100">
               관련 법령 보기

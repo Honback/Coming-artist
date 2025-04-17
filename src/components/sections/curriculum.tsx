@@ -73,7 +73,7 @@ export function CurriculumSection() {
         <TabsContent value="contract" className="mt-4">
           <PosterCard title="2. 계약 교육" color="white">
             <div className="mb-8">
-              <h4 className="text-xl font-semibold mb-4 text-zinc-800">교육 내용:</h4>
+              <h4 className="text-xl font-semibold mb-4 text-zinc-800">교육 내용</h4>
               <ul className="space-y-3 ml-6">
                 <li className="flex items-center gap-2">
                   <div className="size-2 rounded-full bg-primary shrink-0 mt-1.5" />

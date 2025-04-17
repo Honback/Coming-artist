@@ -1,3 +1,6 @@
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
+
 export function ContactSection() {
   return (
     <section id="contact" className="section-padding bg-white">
@@ -33,7 +36,7 @@ export function ContactSection() {
                 <span>(02-3668-0200)</span>
                 <li className="flex flex-col">
                   <span className="font-semibold mb-1">이메일:</span>
-                  <a href="mailto:contract@kawf.kr" className="text-primary hover:underline">contract@kawf.kr</a>
+                  <span>contract@kawf.kr</span>
                 </li>
                 <li className="flex flex-col">
                   <span className="font-semibold mb-1">운영시간:</span>
@@ -88,14 +91,24 @@ export function ContactSection() {
                 </div>
               </div>
 
-              <a
+
+              <Button>
+                <Link href="http://www.kawf.kr" target="_blank"
+                rel="noopener noreferrer"
+                className="bg-primary hover:bg-primary/90 text-white py-2 px-5 rounded-full font-medium transition-colors">
+                  재단 홈페이지 방문
+                </Link>
+              </Button>
+
+              {/* <a
                 href="http://www.kawf.kr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-primary hover:bg-primary/90 text-white py-2 px-5 rounded-full font-medium transition-colors"
               >
                 재단 홈페이지 방문
-              </a>
+              </a> */}
+
             </div>
           </div>
         </div>
