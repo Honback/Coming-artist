@@ -43,12 +43,12 @@ export function SponsorsSection() {
             >
               자료 다운로드
             </a>
-            <a
+            {/* <a
               href="#related-laws"
               className="bg-zinc-100 hover:bg-zinc-200 text-zinc-700 py-2 px-6 rounded-md transition-colors"
             >
               관련 법령 보기
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

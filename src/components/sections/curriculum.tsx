@@ -16,12 +16,12 @@ export function CurriculumSection() {
         <PlaceholderImage
           // text="교육 과정 이미지: 교육 진행 장면"
           height={400}
-          className="bg-zinc-100 bg-[url('/images/curriculum-img.jpg')]"
+          className="bg-zinc-100 bg-[url('/images/curriculum-img.png')] bg-cover bg-center bg-color"
         />
       </div>
 
       <Tabs defaultValue="prevention" className="max-w-4xl mx-auto">
-        <TabsList className="grid w-full grid-cols-2 mb-8 bg-zinc-100">
+        <TabsList className="grid w-full h-full grid-cols-2 mb-8 bg-zinc-100">
           <TabsTrigger
             value="prevention"
             className="text-base py-3 data-[state=active]:bg-primary data-[state=active]:text-white"

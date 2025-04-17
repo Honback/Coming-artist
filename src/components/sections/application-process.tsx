@@ -25,7 +25,7 @@ export function ApplicationProcessSection() {
                 <ul className="space-y-2 text-zinc-700">
                   <li className="flex items-center gap-2">
                     <div className="size-2 rounded-full bg-primary shrink-0 mt-1" />
-                    <span>온라인 신청서를 통해 기관 정보, 참가자 수, 희망 날짜, 예술 분야 등 기재</span>
+                    <span>온라인 신청서를 통해 단체(기관) 정보, 신청인원, 교육희망일, 교육형태 등 기재</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="size-2 rounded-full bg-primary shrink-0 mt-1" />
@@ -33,7 +33,11 @@ export function ApplicationProcessSection() {
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="size-2 rounded-full bg-primary shrink-0 mt-1" />
-                    <span>※ <strong>희망 강사 선택 가능</strong>: 성희롱·성폭력 예방 교육은 강사Pool 중 원하는 강사 선택 가능</span>
+                    <span>※ <u>문화예술분야 성희롱·성폭력 예방 교육</u>은 <strong><i>희망 강사 선택 가능</i></strong></span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <div className="size-2 rounded-full bg-primary shrink-0 mt-1" />
+                    <span>전문강사 Pool : <a href="https://sinmungo.kawf.kr/user/edu/tchr/list.do" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">전문강사 정보 확인하기</a></span>
                   </li>
                 </ul>
               </div>
@@ -81,6 +85,7 @@ export function ApplicationProcessSection() {
             </div>
           </div>
 
+
           <blockquote className="bg-primary/5 p-6 rounded-lg border-l-4 border-primary mb-8 text-center">
             <p className="text-lg font-medium mb-0">
               "교육 신청부터 수료까지 친절한 안내를 제공합니다. 궁금한 점은 언제든 문의해주세요."
@@ -93,12 +98,25 @@ export function ApplicationProcessSection() {
                 교육 신청하기
               </Button>
             </a>
-            <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
-              자료 다운로드
-            </Button>
-            <Button size="lg" variant="outline" className="border-zinc-400 text-zinc-700 hover:bg-zinc-100">
+            <a href="https://coal-trampoline-cb5.notion.site/1d66db55f81c8069a7ecc453e3f61aec" target="_blank" rel="noopener noreferrer" className="hidden md:block">
+              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
+              이용 안내 [단체담당자용]
+              </Button>
+            </a>
+            <a href="https://coal-trampoline-cb5.notion.site/1d66db55f81c8057af53f574f148dcd7" target="_blank" rel="noopener noreferrer" className="hidden md:block">
+              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
+              이용 안내 [수강자용]
+              </Button>
+            </a>
+            <a href="https://coal-trampoline-cb5.notion.site/1d66db55f81c807ba39ed214630e5466" target="_blank" rel="noopener noreferrer" className="hidden md:block">
+              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
+              이용 안내 [강사용]
+              </Button>
+            </a>
+
+            {/* <Button size="lg" variant="outline" className="border-zinc-400 text-zinc-700 hover:bg-zinc-100">
               관련 법령 보기
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>

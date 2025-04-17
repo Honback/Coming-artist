@@ -8,8 +8,8 @@ export function EducationMethodSection() {
         <p className="section-subheading">대면 또는 비대면, 여러분의 상황에 따라 맞춤형으로 진행됩니다</p>
 
         {/* Image placeholder - in production, use an actual image */}
-        <div className="rounded-xl overflow-hidden shadow-lg mb-10 aspect-video max-w-3xl mx-auto">
-          <div className="w-full h-full bg-zinc-200 flex items-center justify-center bg-[url('/images/education-method-img.jpg')]">
+        <div className="rounded-xl overflow-hidden shadow-lg mb-10 aspect-video max-w-4xl mx-auto">
+          <div className="w-full h-full bg-zinc-200 flex items-center justify-center bg-[url('/images/education-method-img.png')] bg-cover bg-center">
             <p className="text-zinc-500"></p>
           </div>
         </div>
@@ -46,7 +46,7 @@ export function EducationMethodSection() {
           </div>
 
           <Tabs defaultValue="inperson" className="max-w-4xl mx-auto">
-            <TabsList className="grid w-full grid-cols-3 mb-8">
+            <TabsList className="grid w-full h-full grid-cols-3 mb-8">
               <TabsTrigger value="inperson" className="text-base py-3">대면 교육</TabsTrigger>
               <TabsTrigger value="online" className="text-base py-3">실시간 비대면 교육</TabsTrigger>
               <TabsTrigger value="space" className="text-base py-3">교육공간 지원</TabsTrigger>

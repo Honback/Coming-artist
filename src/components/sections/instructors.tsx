@@ -7,7 +7,7 @@ export function InstructorsSection() {
 
         {/* Image placeholder - in production, use an actual image */}
         <div className="rounded-xl overflow-hidden shadow-lg mb-10 aspect-video max-w-3xl mx-auto">
-          <div className="w-full h-full bg-zinc-200 flex items-center justify-center bg-[url('/images/instructors-img.jpg')]">
+          <div className="w-full h-full bg-zinc-200 flex items-center justify-center bg-[url('/images/instructors-img.png')] bg-cover">
             <p className="text-zinc-500"></p>
           </div>
         </div>
@@ -58,12 +58,15 @@ export function InstructorsSection() {
               <ul className="text-center mb-4">
                 <li className="mb-1">문학, 미술, 음악, 무용, 연극, 영화,</li>
                 <li>연예, 만화 등 각 예술 분야 전문가</li>
+                <br />
               </ul>
+
 
               <div className="mt-6 bg-white p-4 rounded-lg border border-zinc-100">
                 <p className="text-zinc-700 text-sm">
                   성희롱·성폭력 예방교육은 수요자가 특정 강사를 선택할 수 있습니다.
                 </p>
+                <p className="text-zinc-700 text-sm">※ 전문강사 Pool : <a href="https://sinmungo.kawf.kr/user/edu/tchr/list.do" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">전문강사 정보 확인하기</a></p>
               </div>
             </div>
           </div>

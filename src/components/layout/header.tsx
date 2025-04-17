@@ -9,7 +9,9 @@ export function Header() {
       <div className="container-custom flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
           <Link href="/" className="font-bold text-xl flex items-center text-white">
-            <span>한국예술인복지재단</span>
+            <div className="h-[3rem] w-[6.5rem] bg-zinc-200 rounded-lg flex items-center justify-center bg-[url('/images/logo.png')] bg-contain bg-center">
+                </div>
+            {/* <span>한국예술인복지재단</span> */}
           </Link>
         </div>
 
@@ -83,13 +85,20 @@ export function Header() {
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
+            <NavigationMenuItem>
+              <Link href="#apply" legacyBehavior passHref>
+                <NavigationMenuLink className={`${navigationMenuTriggerStyle()} text-white hover:text-white/80 hover:bg-purple-600/40 bg-transparent`}>
+                  신청 및 진행 절차
+                </NavigationMenuLink>
+              </Link>
+            </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
 
         <div className="flex items-center gap-4">
-          <Link href="#apply" className="hidden md:block">
+          {/* <Link href="#apply" className="hidden md:block">
             <Button className="poster-button-primary">교육 신청하기</Button>
-          </Link>
+          </Link> */}
           <Link href="#contact" className="hidden md:block">
             <Button variant="outline" className="text-white bg-transparent border-white hover:bg-white/20">상담 문의하기</Button>
           </Link>

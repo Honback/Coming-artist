@@ -67,7 +67,7 @@ export function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="#apply">
               <Button size="lg" className="w-full sm:w-auto poster-button-primary">
-                교육 신청하기
+              신청 절차 바로가기
               </Button>
             </Link>
             <Link href="#contact">

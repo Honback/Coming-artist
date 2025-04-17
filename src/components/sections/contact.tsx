@@ -13,7 +13,7 @@ export function ContactSection() {
         </div> */}
 
         <div className="max-w-5xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-10 justify-items-center">
             <div className="bg-zinc-50 p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold mb-6 flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary mr-2">
@@ -23,24 +23,27 @@ export function ContactSection() {
               </h3>
 
               <ul className="space-y-4 text-zinc-700 pl-9">
-                <li className="flex flex-col">
+                {/* <li className="flex flex-col">
                   <span className="font-semibold mb-1">전화:</span>
                   <span>02-3668-0200, 0267, 0362</span>
                   <span className="text-sm text-zinc-500">(한국예술인복지재단 권리보장팀)</span>
-                </li>
+                </li> */}
+                <p><strong>찾아가는 교육 : </strong>찾아가는 교육 운영 사무국</p><span>(02-6342-2801)</span>
+                <p><strong>온라인 교육 : </strong>한국예술인복지재단 고객센터</p>
+                <span>(02-3668-0200)</span>
                 <li className="flex flex-col">
                   <span className="font-semibold mb-1">이메일:</span>
-                  <a href="mailto:education@kawf.kr" className="text-primary hover:underline">education@kawf.kr</a>
+                  <a href="mailto:contract@kawf.kr" className="text-primary hover:underline">contract@kawf.kr</a>
                 </li>
                 <li className="flex flex-col">
                   <span className="font-semibold mb-1">운영시간:</span>
-                  <span>평일 9:00-17:30</span>
+                  <span>평일 9:00-18:00</span>
                   <span className="text-sm text-zinc-500">(12:00-13:00 점심시간 제외)</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-zinc-50 p-6 rounded-lg shadow-sm">
+            {/* <div className="bg-zinc-50 p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold mb-6 flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary mr-2">
                   <path d="M21.73 18l-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" />
@@ -60,7 +63,7 @@ export function ContactSection() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="mt-12 p-6 bg-zinc-800 text-white rounded-lg shadow-md">
@@ -81,7 +84,7 @@ export function ContactSection() {
 
                 <div>
                   <p className="font-medium">Tel: 02-3668-0200</p>
-                  <p className="text-zinc-300">Fax: 02-739-7111</p>
+                  <p className="text-zinc-300">이메일 : kawf@kawf.kr</p>
                 </div>
               </div>
 
