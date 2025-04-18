@@ -10,12 +10,12 @@ export function HeroSection() {
       {/* Background image */}
       <div className="absolute inset-0 bg-[url('/images/hero-bg.jpg')] bg-cover bg-center opacity-40" />
 
-      <div className="container-custom relative z-20">
+      <div className="container-custom relative z-20 pt-5 pb-5">
         <div className="max-w-3xl">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
             찾아가는 예술인 권리보호 교육
           </h1>
-          <p className="text-xl md:text-2xl text-zinc-200 mb-8 font-medium leading-relaxed">
+          <p className="text-sm md:text-2xl text-zinc-200 mb-8 font-medium leading-relaxed">
             "예술인의 권리를 지키는 첫걸음, 여러분의 현장으로 직접 찾아갑니다"
           </p>
 
@@ -29,7 +29,7 @@ export function HeroSection() {
                   </svg>
                 </div>
                 <div>
-                  <span className="font-bold">성희롱·성폭력 예방 교육</span> - 문화예술계 특수성을 반영한 성희롱·성폭력 예방 교육
+                  <span className="font-bold">예술 계약</span> - 예술 계약의 기본 개념과 유의사항을 교육하는 과정
                 </div>
               </li>
               <li className="flex items-start">
@@ -39,7 +39,7 @@ export function HeroSection() {
                   </svg>
                 </div>
                 <div>
-                  <span className="font-bold">계약 교육</span> - 예술 계약의 기본 개념, 계약 시 유의사항, 저작권 기본 지식
+                  <span className="font-bold">성희롱·성폭력 예방</span> - 문화예술계 특수성을 반영한 성희롱·성폭력 예방 교육
                 </div>
               </li>
             </ul>
@@ -66,19 +66,19 @@ export function HeroSection() {
 
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg mb-8 border border-white/20 space-y-3">
             <div className="flex gap-2 items-start">
-              <span className="font-bold text-white min-w-32 ">신청기간</span>
-              <span className="text-white">수시 접수 ~ '25. 11. 26. (예산 소진 시 조기 종료)</span>
+              <span className="font-bold text-white min-w-20 sm:min-w-32 ">신청기간</span>
+              <span className="text-white tracking-tight">수시 접수 ~ '25. 11. 26. (예산 소진 시 조기 종료)</span>
             </div>
             <div className="flex gap-2 items-start">
-              <span className="font-bold text-white min-w-32">교육비용</span>
+              <span className="font-bold text-white min-w-20 sm:min-w-32">교육비용</span>
               <span className="text-white">전액 무료 (한국예술인복지재단 지원)</span>
             </div>
             <div className="flex gap-2 items-start">
-              <span className="font-bold text-white min-w-32">교육형태</span>
+              <span className="font-bold text-white min-w-20 sm:min-w-32">교육형태</span>
               <span className="text-white">대면 또는 실시간 비대면</span>
             </div>
             <div className="flex gap-2 items-start">
-              <span className="font-bold text-white min-w-32">교육시간</span>
+              <span className="font-bold text-white min-w-20 sm:min-w-32">교육시간</span>
               <span className="text-white">1회당 90~180분</span>
             </div>
           </div>

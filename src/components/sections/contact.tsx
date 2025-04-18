@@ -36,11 +36,11 @@ export function ContactSection() {
                 <span>(02-3668-0200)</span>
                 <li className="flex flex-col">
                   <span className="font-semibold mb-1">이메일:</span>
-                  <span>contract@kawf.kr</span>
+                  <span>info@parancompany.co.kr</span>
                 </li>
                 <li className="flex flex-col">
                   <span className="font-semibold mb-1">운영시간:</span>
-                  <span>평일 9:00-18:00</span>
+                  <span>평일 9:00-17:30</span>
                   <span className="text-sm text-zinc-500">(12:00-13:00 점심시간 제외)</span>
                 </li>
               </ul>

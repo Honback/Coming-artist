@@ -96,7 +96,7 @@ export function TargetAudienceSection() {
 
         <div className="max-w-4xl mx-auto">
           <blockquote className="bg-zinc-50 p-6 rounded-lg border-l-4 border-primary mb-8 text-center">
-            <p className="text-lg font-medium mb-0">
+            <p className="text-base sm:text-lg font-medium mb-0">
               "예술인 권리보호는 창작의 자유와 예술적 가치를 지키는 토대입니다. 단체/학교/기관이 함께 참여하면 더 효과적인 변화를 이끌어낼 수 있습니다."
             </p>
           </blockquote>
@@ -106,11 +106,11 @@ export function TargetAudienceSection() {
             <ul className="space-y-2">
               <li className="flex items-center gap-2">
                 <div className="size-2 rounded-full bg-primary shrink-0 mt-1" />
-                <span><strong>성희롱·성폭력 예방 교육:</strong> 10인 이상</span>
+                <span><strong>성희롱·성폭력 예방:</strong> 10인 이상</span>
               </li>
               <li className="flex items-center gap-2">
                 <div className="size-2 rounded-full bg-primary shrink-0 mt-1" />
-                <span><strong>계약 교육:</strong> 20인 이상</span>
+                <span><strong>예술 계약:</strong> 20인 이상</span>
               </li>
             </ul>
           </div>

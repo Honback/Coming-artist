@@ -87,28 +87,28 @@ export function ApplicationProcessSection() {
 
 
           <blockquote className="bg-primary/5 p-6 rounded-lg border-l-4 border-primary mb-8 text-center">
-            <p className="text-lg font-medium mb-0">
+            <p className="text-base sm:text-lg font-medium mb-0">
               "교육 신청부터 수료까지 친절한 안내를 제공합니다. 궁금한 점은 언제든 문의해주세요."
             </p>
           </blockquote>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="https://sinmungo.kawf.kr/user/intro/artRightViloate/list.do" target="_blank" rel="noopener noreferrer" className="hidden md:block">
+          <div className="flex flex-wrap sm:flex-row gap-4 justify-center">
+            <Link href="https://sinmungo.kawf.kr/user/intro/artRightViloate/list.do" target="_blank" rel="noopener noreferrer" className="">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
                 교육 신청하기
               </Button>
             </Link>
-            <Link href="https://coal-trampoline-cb5.notion.site/1d66db55f81c8069a7ecc453e3f61aec" target="_blank" rel="noopener noreferrer" className="hidden md:block">
+            <Link href="https://coal-trampoline-cb5.notion.site/1d66db55f81c8069a7ecc453e3f61aec" target="_blank" rel="noopener noreferrer" className="">
               <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
               이용 안내 [단체담당자용]
               </Button>
             </Link>
-            <Link href="https://coal-trampoline-cb5.notion.site/1d66db55f81c8057af53f574f148dcd7" target="_blank" rel="noopener noreferrer" className="hidden md:block">
+            <Link href="https://coal-trampoline-cb5.notion.site/1d66db55f81c8057af53f574f148dcd7" target="_blank" rel="noopener noreferrer" className="">
               <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
               이용 안내 [수강자용]
               </Button>
             </Link>
-            <Link href="https://coal-trampoline-cb5.notion.site/1d66db55f81c807ba39ed214630e5466" target="_blank" rel="noopener noreferrer" className="hidden md:block">
+            <Link href="https://coal-trampoline-cb5.notion.site/1d66db55f81c807ba39ed214630e5466" target="_blank" rel="noopener noreferrer" className="">
               <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
               이용 안내 [강사용]
               </Button>

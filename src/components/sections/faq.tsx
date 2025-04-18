@@ -17,7 +17,7 @@ export function FaqSection() {
         <div className="max-w-4xl mx-auto">
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1" className="border-b border-zinc-200 py-2">
-              <AccordionTrigger className="text-lg font-medium hover:text-primary transition-colors [&[data-state=open]>svg]:text-primary">
+              <AccordionTrigger className="text-base sm:text-lg font-medium hover:text-primary transition-colors [&[data-state=open]>svg]:text-primary">
                 이 교육은 비용이 어떻게 되나요?
               </AccordionTrigger>
               <AccordionContent className="text-zinc-700 pb-4 pt-2">
@@ -26,7 +26,7 @@ export function FaqSection() {
             </AccordionItem>
 
             <AccordionItem value="item-2" className="border-b border-zinc-200 py-2">
-              <AccordionTrigger className="text-lg font-medium hover:text-primary transition-colors [&[data-state=open]>svg]:text-primary">
+              <AccordionTrigger className="text-base sm:text-lg font-medium hover:text-primary transition-colors [&[data-state=open]>svg]:text-primary">
                 성희롱·성폭력 예방교육은 법정의무교육으로 인정받을 수 있나요?
               </AccordionTrigger>
               <AccordionContent className="text-zinc-700 pb-4 pt-2">
@@ -35,7 +35,7 @@ export function FaqSection() {
             </AccordionItem>
 
             <AccordionItem value="item-3" className="border-b border-zinc-200 py-2">
-              <AccordionTrigger className="text-lg font-medium hover:text-primary transition-colors [&[data-state=open]>svg]:text-primary">
+              <AccordionTrigger className="text-base sm:text-lg font-medium hover:text-primary transition-colors [&[data-state=open]>svg]:text-primary">
                 최소 인원에 미치지 못하는 소규모 단체는 신청할 수 없나요?
               </AccordionTrigger>
               <AccordionContent className="text-zinc-700 pb-4 pt-2">
@@ -44,7 +44,7 @@ export function FaqSection() {
             </AccordionItem>
 
             <AccordionItem value="item-4" className="border-b border-zinc-200 py-2">
-              <AccordionTrigger className="text-lg font-medium hover:text-primary transition-colors [&[data-state=open]>svg]:text-primary">
+              <AccordionTrigger className="text-base sm:text-lg font-medium hover:text-primary transition-colors [&[data-state=open]>svg]:text-primary">
                 교육 내용은 어떻게 구성되나요?
               </AccordionTrigger>
               <AccordionContent className="text-zinc-700 pb-4 pt-2">
@@ -53,20 +53,11 @@ export function FaqSection() {
             </AccordionItem>
 
             <AccordionItem value="item-5" className="border-b border-zinc-200 py-2">
-              <AccordionTrigger className="text-lg font-medium hover:text-primary transition-colors [&[data-state=open]>svg]:text-primary">
+              <AccordionTrigger className="text-base sm:text-lg font-medium hover:text-primary transition-colors [&[data-state=open]>svg]:text-primary">
                 비대면 교육도 수료증이 발급되나요?
               </AccordionTrigger>
               <AccordionContent className="text-zinc-700 pb-4 pt-2">
                 네, 실시간으로 참여한 교육생에 한해 동일하게 수료증이 발급됩니다. 단, 비대면 교육의 경우 참가자 출석 확인을 위한 절차가 필요하니 안내에 따라주세요.
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="item-6" className="border-b border-zinc-200 py-2">
-              <AccordionTrigger className="text-lg font-medium hover:text-primary transition-colors [&[data-state=open]>svg]:text-primary">
-                2025년 상반기 신청 일정은 언제 공지되나요?
-              </AccordionTrigger>
-              <AccordionContent className="text-zinc-700 pb-4 pt-2">
-                2025년 교육 일정 및 신청 방법은 한국예술인복지재단 홈페이지를 통해 공지될 예정입니다. 재단 뉴스레터나 SNS를 구독하시면 가장 빠르게 소식을 받아보실 수 있습니다.
               </AccordionContent>
             </AccordionItem>
           </Accordion>

@@ -138,7 +138,7 @@ export function EducationMethodSection() {
           </Tabs>
 
           <blockquote className="bg-primary/5 p-6 rounded-lg border-l-4 border-primary mt-10 text-center">
-            <p className="text-lg font-medium mb-0">
+            <p className="text-base sm:text-lg font-medium mb-0">
               "여러분의 일정과 환경에 맞춰 최적의 교육 방식을 선택하세요. 접근성과 교육 효과를 모두 고려한 맞춤형 교육을 제공합니다."
             </p>
           </blockquote>

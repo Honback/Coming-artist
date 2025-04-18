@@ -74,7 +74,7 @@ export function InstructorsSection() {
           </div>
 
           <blockquote className="bg-primary/5 p-6 rounded-lg border-l-4 border-primary mt-10 text-center">
-            <p className="text-lg font-medium mb-0">
+            <p className="text-base sm:text-lg font-medium mb-0">
               "당신의 분야를 이해하는 강사가 교육을 진행하기 때문에, 현장에서 실제 발생할 수 있는 사례를 중심으로 이야기합니다."
             </p>
           </blockquote>
