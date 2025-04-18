@@ -30,9 +30,9 @@ export function WhySection() {
 
         <h3 className="text-xl font-bold mb-6 text-primary">예술인들이 직면하는 현실적 어려움:</h3>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
-          <PosterCard color="white" className="h-full">
-            <div className="flex items-center justify-left items-start gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 sm:gap-6 ">
+          <PosterCard color="white" className="h-16 sm:h-full flex items-center">
+            <div className="flex items-center justify-left gap-4">
               <div className="bg-zinc-100 p-3 rounded-full flex-shrink-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -50,13 +50,13 @@ export function WhySection() {
                 </svg>
               </div>
               <div>
-                <p className="text-sm sm:text-lg font-medium text-zinc-800">예술 활동 중 발생할 수 있는 성희롱·성폭력 문제</p>
+                <p className="text-base sm:text-lg font-medium text-zinc-800">예술 활동 중 발생할 수 있는 성희롱·성폭력 문제</p>
               </div>
             </div>
           </PosterCard>
 
-          <PosterCard color="white" className="h-full">
-            <div className="flex items-center justify-left items-start gap-4">
+          <PosterCard color="white" className="h-16 sm:h-full flex items-center">
+            <div className="flex items-center justify-left  gap-4">
               <div className="bg-zinc-100 p-3 rounded-full flex-shrink-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -74,13 +74,13 @@ export function WhySection() {
                 </svg>
               </div>
               <div>
-                <p className="text-sm sm:text-lg font-medium text-zinc-800">불공정한 계약 관행으로 인한 권리 침해</p>
+                <p className="text-base sm:text-lg font-medium text-zinc-800">불공정한 계약 관행으로 인한 권리 침해</p>
               </div>
             </div>
           </PosterCard>
 
-          <PosterCard color="white" className="h-full">
-            <div className="flex items-center justify-left items-start gap-4">
+          <PosterCard color="white" className="h-16 sm:h-full flex items-center">
+            <div className="flex items-center justify-left  gap-4">
               <div className="bg-zinc-100 p-3 rounded-full flex-shrink-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -98,13 +98,13 @@ export function WhySection() {
                 </svg>
               </div>
               <div>
-                <p className="text-sm sm:text-lg font-medium text-zinc-800">저작권에 대한 이해 부족으로 발생하는 불이익</p>
+                <p className="text-base sm:text-lg font-medium text-zinc-800">저작권에 대한 이해 부족으로 발생하는 불이익</p>
               </div>
             </div>
           </PosterCard>
 
-          <PosterCard color="white" className="h-full">
-            <div className="flex items-center justify-left items-start gap-4">
+          <PosterCard color="white" className="h-16 sm:h-full flex items-center">
+            <div className="flex items-center justify-left  gap-3">
               <div className="bg-zinc-100 p-3 rounded-full flex-shrink-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -122,7 +122,7 @@ export function WhySection() {
                 </svg>
               </div>
               <div>
-                <p className="text-sm sm:text-lg font-medium text-zinc-800">예술인 권리 구제를 위한 절차와 기관에 대한 정보 부족</p>
+                <p className="text-base tracking-tight sm:text-lg font-medium text-zinc-800">예술인 권리 구제를 위한 절차와 기관에 대한 정보 부족</p>
               </div>
             </div>
           </PosterCard>
