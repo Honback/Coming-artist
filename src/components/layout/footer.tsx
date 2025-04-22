@@ -18,7 +18,7 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">신청 및 운영 문의</h3>
             <div className="text-sm space-y-2">
-              <p>*평일 9:00-17:30 (12:00-13:00 점심시간 제외)</p>
+              <p>*평일 9:00-18:00 (12:00-13:00 점심시간 제외)</p>
               <p><strong>찾아가는 교육 : </strong>
               찾아가는 교육 운영 사무국(02-6342-2801)</p>
               <p><strong>온라인 교육 : </strong>

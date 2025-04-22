@@ -40,7 +40,7 @@ export function ContactSection() {
                 </li>
                 <li className="flex flex-col">
                   <span className="font-semibold mb-1">운영시간:</span>
-                  <span>평일 9:00-17:30</span>
+                  <span>평일 9:00-18:00</span>
                   <span className="text-sm text-zinc-500">(12:00-13:00 점심시간 제외)</span>
                 </li>
               </ul>
