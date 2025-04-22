@@ -108,11 +108,11 @@ export function ApplicationProcessSection() {
               이용 안내 [수강자용]
               </Button>
             </Link>
-            <Link href="https://coal-trampoline-cb5.notion.site/1d66db55f81c807ba39ed214630e5466" target="_blank" rel="noopener noreferrer" className="">
+            {/* <Link href="https://coal-trampoline-cb5.notion.site/1d66db55f81c807ba39ed214630e5466" target="_blank" rel="noopener noreferrer" className="">
               <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
               이용 안내 [강사용]
               </Button>
-            </Link>
+            </Link> */}
 
             {/* <Button size="lg" variant="outline" className="border-zinc-400 text-zinc-700 hover:bg-zinc-100">
               관련 법령 보기

@@ -22,7 +22,7 @@ export function ContactSection() {
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary mr-2">
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                 </svg>
-                교육 운영 문의
+                교육 운영 문의(운영사무국)
               </h3>
 
               <ul className="space-y-4 text-zinc-700 pl-9">
@@ -31,12 +31,13 @@ export function ContactSection() {
                   <span>02-3668-0200, 0267, 0362</span>
                   <span className="text-sm text-zinc-500">(한국예술인복지재단 권리보장팀)</span>
                 </li> */}
-                <p><strong>찾아가는 교육 : </strong>찾아가는 교육 운영 사무국</p><span>(02-6342-2801)</span>
-                <p><strong>온라인 교육 : </strong>한국예술인복지재단 고객센터</p>
-                <span>(02-3668-0200)</span>
+                <p><strong>카톡 문의 : </strong>
+                  <Link href="http://pf.kakao.com/_xkexdLG/chat" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">바로가기</Link>
+                </p>
+                <p><strong>전화 : </strong>02-6342-2801</p>
                 <li className="flex flex-col">
                   <span className="font-semibold mb-1">이메일:</span>
-                  <span>info@parancompany.co.kr</span>
+                  <span>phh@parancompany.co.kr</span>
                 </li>
                 <li className="flex flex-col">
                   <span className="font-semibold mb-1">운영시간:</span>

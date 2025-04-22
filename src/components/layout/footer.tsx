@@ -18,17 +18,18 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">신청 및 운영 문의</h3>
             <div className="text-sm space-y-2">
-              <p>*평일 9:00-18:00 (12:00-13:00 점심시간 제외)</p>
-              <p><strong>찾아가는 교육 : </strong>
-              찾아가는 교육 운영 사무국(02-6342-2801)</p>
-              <p><strong>온라인 교육 : </strong>
-              한국예술인복지재단 고객센터(02-3668-0200)</p>
-              <p><strong>교육사업 관련 : </strong>
-              한국예술인복지재단 권리보장팀(02-3668-0267, 0362)</p>
-              {/* <p>전화: 02-3668-0200, 0267, 0362</p>
-              <p>(한국예술인복지재단 권리보장팀)</p> */}
-              {/* <p>이메일: contract@kawf.kr</p> */}
-
+              <p>
+                <strong>카톡 문의 : </strong>
+                  <Link href="http://pf.kakao.com/_xkexdLG/chat" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">바로가기</Link>
+               </p>
+              <p><strong>전화 : </strong>02-6342-2801</p>
+              <li className="flex flex-col">
+                <span className="font-semibold mb-1">이메일 : phh@parancompany.co.kr</span>
+              </li>
+              <li className="flex flex-col">
+                <span className="font-semibold mb-1">운영시간 : 평일 9:00-18:00</span>
+                <span className="text-sm text-zinc-500">(12:00-13:00 점심시간 제외)</span>
+              </li>
             </div>
           </div>
 
