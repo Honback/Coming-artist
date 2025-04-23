@@ -99,9 +99,11 @@ export function Header() {
           {/* <Link href="#apply" className="hidden md:block">
             <Button className="poster-button-primary">교육 신청하기</Button>
           </Link> */}
-          <Link href="#contact" className="hidden md:block">
-            <Button variant="outline" className="text-white bg-transparent border-white hover:bg-white/20">상담 문의하기</Button>
-          </Link>
+            <Link href="https://sinmungo.kawf.kr/user/intro/artRightViloate/list.do" target="_blank" rel="noopener noreferrer" className="">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
+                교육 신청하기
+              </Button>
+            </Link>
 
 
           <Button
