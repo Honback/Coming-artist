@@ -11,7 +11,7 @@ export function Footer() {
               <p>(04637) 서울특별시 중구 한강대로 416 서울스퀘어 3층</p>
               <p>Tel: 02-3668-0200</p>
               {/* <p>Fax: 02-739-7111</p> */}
-              <p>Email: kawf@kawf.kr</p>
+              <p>Email: contract@kawf.kr</p>
             </address>
           </div>
 

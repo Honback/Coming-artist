@@ -88,7 +88,7 @@ export function ContactSection() {
 
                 <div>
                   <p className="font-medium">한국예술인복지재단 권리보장팀</p>
-                  <p className="text-zinc-300">Tel: 02-3668-0267, 0362</p>
+                  <p className="text-zinc-300">Tel : 02-3668-0267, 0362</p>
                   <p className="text-zinc-300">이메일 : contract@kawf.kr</p>
                 </div>
               </div>
