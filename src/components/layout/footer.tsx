@@ -20,7 +20,7 @@ export function Footer() {
             <div className="text-sm space-y-2">
               <p>
                 <strong>카톡 문의 : </strong>
-                  <Link href="http://pf.kakao.com/_xkexdLG/chat" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">바로가기</Link>
+                  <Link href="http://pf.kakao.com/_xkexdLG/chat" target="_blank" rel="noopener noreferrer" className="text-primary text-yellow-400 no-underline hover:text-purple-300 hover:underline">바로가기</Link>
                </p>
               <p><strong>전화 : </strong>02-6342-2801</p>
               <li className="flex flex-col">
